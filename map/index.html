@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clients & Services | Swarna</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../assets/css/tokens.css" />
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/components.css" />
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="../assets/css/map.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a class="logo" href="../index.html" aria-label="Swarna Home">
+            <img class="logo-mark" src="../assets/img/logo/logo_no_bg.png" alt="Swarna logo" />
+            <span class="brand-olive">SWARNA</span><span class="brand-red">CORP.</span>
+          </a>
+
+          <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="index.html">Clients &amp; Services</a>
+            <a href="../catalog/index.html">Catalog</a>
+          </div>
+
+          <a class="btn btn-primary" href="../contact/index.html">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="clients-hero">
+        <div class="container" style="text-align: center">
+          <h1 class="h2" style="font-size: 3rem; margin: 0">Projects That Travel Well</h1>
+          <p class="sub" style="margin-top: 8px">
+            Trusted by institutions across the archipelago. From universities and research centers to public
+            laboratories, we support procurement and lab development with a single goal:
+            <strong>instruments, clear documentation, and responsive service</strong>.
+          </p>
+        </div>
+      </section>
+
+      <section class="clients-wrap">
+        <div class="container">
+          <div class="clients-layout clients-layout--stack">
+
+              <div class="clients-logo-box" aria-label="Client logos">
+                <div class="clients-logo-track">
+                  <!-- 1x set logo (TANPA duplikasi) -->
+                  <span class="clients-logo-item" aria-label="Universitas Indonesia" title="Universitas Indonesia">
+                    <img src="../assets/img/clients/ui.png" alt="Universitas Indonesia" />
+                  </span>
+
+                  <span class="clients-logo-item" aria-label="Universitas Halu Oleo" title="Universitas Halu Oleo">
+                    <img src="../assets/img/clients/uho.png" alt="Universitas Halu Oleo" />
+                  </span>
+
+                  <span class="clients-logo-item" aria-label="Institut Teknologi Kalimantan" title="Institut Teknologi Kalimantan">
+                    <img src="../assets/img/clients/itk.png" alt="Institut Teknologi Kalimantan" />
+                  </span>
+
+                  <span class="clients-logo-item" aria-label="BPIB Jakarta" title="BPIB Jakarta">
+                    <img src="../assets/img/clients/bpib.png" alt="BPIB Jakarta" />
+                  </span>
+
+                  <span class="clients-logo-item" aria-label="BPOM" title="BPOM">
+                    <img src="../assets/img/clients/bpom.png" alt="BPOM" />
+                  </span>
+
+                  <span class="clients-logo-item" aria-label="BBTKLPP" title="BBTKLPP">
+                    <img src="../assets/img/clients/bbtklpp.png" alt="BBTKLPP" />
+                  </span>
+
+                  <span class="clients-logo-item" aria-label="Pusat Penelitian Oseanografi" title="Pusat Penelitian Oseanografi">
+                    <img src="../assets/img/clients/p2o.png" alt="Pusat Penelitian Oseanografi" />
+                  </span>
+
+                  <span class="clients-logo-item" aria-label="BRIN" title="BRIN">
+                    <img src="../assets/img/clients/brin.png" alt="BRIN" />
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- MAP -->
+            <div class="client-map">
+              <div class="client-map-inner" id="clientMap" aria-label="Client distribution map">
+                <div id="leafletMap" aria-hidden="true"></div>
+              </div>
+
+              <!-- OPTIONAL: preset buttons -->
+              <div class="map-presets">
+                <button class="btn" type="button" style="font-size: .8rem" data-preset="uho">From equipment procurement to lab planning—supporting clients across disciplines</button>
+              </div>
+            </div>
+
+            <!-- TABLE -->
+            <aside class="clients-table-panel">
+              <div class="clients-table-wrap">
+                <table class="clients-table" aria-label="Client list">
+                  <thead>
+                    <tr>
+                      <th style="width: 30%">Institution</th>
+                      <th style="width: 48%">Scope</th>
+                      <th style="width: 17%">City</th>
+                      <th style="width: 5%">Year</th>
+                    </tr>
+                  </thead>
+                  <tbody id="clientsTbody"></tbody>
+                </table>
+              </div>
+            </aside>
+
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="copyright">© 2026 PT Swarna Sinergitama. All Rights Reserved.</div>
+      </div>
+    </footer>
+
+    <!-- Penting: pakai defer agar Leaflet siap dulu -->
+    <script defer src="../assets/js/clients-map.js"></script>
+  </body>
+</html>
