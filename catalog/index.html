@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catalog | Swarna </title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/catalog.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <a class="logo" href="../index.html" aria-label="Swarna Home">
+        <img class="logo-mark" src="../assets/img/logo/logo_no_bg.png" alt="Swarna logo">
+        <span class="brand-olive">SWARNA</span><span class="brand-red">CORP.</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../map/index.html">Clients &amp; Services</a>
+        <a href="index.html">Catalog</a>
+      </div>
+
+      <a class="btn btn-primary" href="../contact/index.html">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section-padding" style="padding-top:140px;">
+  <div class="container">
+
+    <!-- Header catalog: title + partners -->
+    <div class="catalog-head">
+      <div class="catalog-title">
+        <h1 class="h2">Equipment Catalog</h1>
+        <p class="catalog-subtitle">
+          Upgrade your lab with dependable instruments chosen for performance and longevity.
+        </p>
+      </div>
+
+      <div class="catalog-partners">
+        <p class="muted" style="margin-bottom:10px;">Swarna is an authorized distributor for:</p>
+        <div id="partnersRow" class="partners-row"></div>
+      </div>
+    </div>
+
+    <div class="catalog-filters">
+      <input id="searchInput" type="search" placeholder="Search product..." />
+
+      <select id="filterCategory">
+        <option value="">All categories</option>
+    </select>
+
+    <select id="filterOrigin">
+      <option value="">All origins</option>
+    </select>
+
+    <select id="filterBrand">
+      <option value="">All brands</option>
+    </select>
+
+    <select id="filterBadge">
+      <option value="">All types</option>
+      <option value="Import">Import</option>
+      <option value="PDN">PDN</option>
+      <option value="Best Seller">Best Seller</option>
+    </select>
+
+    <select id="sortSelect">
+      <option value="relevance">Sort: Relevance</option>
+      <option value="title_asc">Sort: A → Z</option>
+      <option value="title_desc">Sort: Z → A</option>
+    </select>
+
+    <button id="clearFilters" type="button">Reset</button>
+  </div>
+
+    <!-- Product grid -->
+    <section id="catalogGrid" class="catalog-grid" aria-label="Product list" data-page-size="9">
+      <!-- Products rendered from ../assets/data/products.json -->
+    </section>
+
+    <!-- Pagination UI -->
+    <nav class="catalog-pagination" aria-label="Catalog pagination">
+      <button id="prevPageBtn" class="btn" type="button" aria-label="Previous page" disabled>
+        ← Previous
+      </button>
+
+      <div class="page-center">
+        <div id="pageNumbers" class="page-numbers" aria-label="Page numbers"></div>
+        <div id="pageInfo" class="muted" role="status" aria-live="polite" style="margin-top:8px;"></div>
+      </div>
+
+      <button id="nextPageBtn" class="btn" type="button" aria-label="Next page" disabled>
+        Next →
+      </button>
+    </nav>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <span class="modal-close" onclick="closeModal()" aria-label="Close modal">&times;</span>
+
+      <div class="modal-body">
+        <div class="modal-media">
+          <button class="gallery-btn prev" id="galleryPrev" aria-label="Previous image">‹</button>
+
+          <img id="modalImg" class="modal-img" alt="Product image" />
+
+          <button class="gallery-btn next" id="galleryNext" aria-label="Next image">›</button>
+
+          <div id="modalThumbs" class="modal-thumbs"></div>
+      </div>
+
+        <div class="modal-details">
+          <div id="modalTags" style="margin-bottom:18px;"></div>
+
+          <h2 id="modalTitle" style="font-family:var(--font-heading);margin-bottom:8px;">—</h2>
+          <p id="modalMeta" class="muted" style="margin-bottom:16px;">—</p>
+
+          <p id="modalDesc" style="margin-bottom:16px;"></p>
+
+          <a id="inaprocBtn" class="btn btn-primary"
+             href="#"
+             target="_blank" rel="noreferrer"
+             style="width:100%;text-align:center;margin-bottom:16px;">
+            View on INAPROC
+          </a>
+
+          <h4 style="border-bottom:1px solid #ddd;padding-bottom:6px;margin-top:10px;">Technical Specifications</h4>
+          <table class="spec-table" aria-label="Technical specs table">
+            <tbody id="specTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="copyright">© 2026 PT Swarna Sinergitama. All Rights Reserved.</div>
+  </div>
+</footer>
+
+<script src="../assets/js/catalog.js"></script>
+</body>
+</html>
