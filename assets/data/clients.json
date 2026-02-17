@@ -1,0 +1,119 @@
+[
+  {
+    "id": "uho2",
+    "institution": "Universitas Halu Oleo",
+    "city": "Kendari, Southeast Sulawesi",
+    "lat": -4.008150861996887,
+    "lon": 122.52077034444372,
+    "focus": "Procurement of laboratory equipment within the university.",
+    "year": 2024
+  },
+  {
+    "id": "itk",
+    "institution": "Institut Teknologi Kalimantan (ITK)",
+    "city": "Balikpapan, East Kalimantan",
+    "lat": -1.149767997883866,
+    "lon": 116.86207897370512,
+    "focus": "Integrated laboratory procurement support.",
+    "year": 2020
+  },
+  {
+    "id": "ui",
+    "institution": "Universitas Indonesia",
+    "city": "Depok, West Java",
+    "lat": -6.366724460405247,
+    "lon": 106.82826923720845,
+    "focus": "Research equipment supply & technical consultation.",
+    "year": 2019
+  },
+  {
+    "id": "bpib-jak2",
+    "institution": "Indonesian Customs Laboratory (BPIB)",
+    "city": "Jakarta",
+    "lat": -6.17181449170763,
+    "lon": 106.86481572539142,
+    "focus": "Laboratory instrumentation procurement.",
+    "year": 2017
+  },
+  {
+    "id": "bpom-pon",
+    "institution": "BPOM Pontianak",
+    "city": "Pontianak, West Kalimantan",
+    "lat": -0.06537315732028012,
+    "lon": 109.36298497427806,
+    "focus": "Quality control lab equipment & support.",
+    "year": 2016
+  },
+  {
+    "id": "bvet",
+    "institution": "Balai Veteriner Medan",
+    "city": "Medan, North Sumatera",
+    "lat": 3.59194076517841,
+    "lon": 98.62242594044373,
+    "focus": "Veterinary laboratory equipment supply.",
+    "year": 2016
+  },
+  {
+    "id": "bbtklpp-jkt",
+    "institution": "BBTKLPP Jakarta",
+    "city": "Jakarta",
+    "lat": -6.18314728649229,
+    "lon": 106.95798549719954,
+    "focus": "Public health lab equipment procurement.",
+    "year": 2016
+  },
+  {
+    "id": "p2o2",
+    "institution": "Pusat Penelitian Oseanografi (BRIN)",
+    "city": "Jakarta",
+    "lat": -6.125480531345084,
+    "lon": 106.84621495904238,
+    "focus": "Research lab equipment & supporting instruments.",
+    "year": 2014
+  },
+  {
+    "id": "bpom-pal",
+    "institution": "BPOM Palembang",
+    "city": "Palembang, South Sumatera",
+    "lat": -3.021913169892201,
+    "lon": 104.77395863446645,
+    "focus": "Lab equipment & supporting instruments.",
+    "year": 2012
+  },
+   {
+    "id": "p2o1",
+    "institution": "Pusat Penelitian Oseanografi (BRIN)",
+    "city": "Jakarta",
+    "lat": -6.125522894247277,
+    "lon": 106.84588532341093,
+    "focus": "Procurement of research equipment and supporting equipment.",
+    "year": 2013
+  },
+  {
+    "id": "bbtklpp-ykt",
+    "institution": "BBTKLPP Yogyakarta",
+    "city": "Yogyakarta, Special Region of Yogyakarta",
+    "lat": -7.850652481830755,
+    "lon": 110.3899625148196,
+    "focus": "Public health lab setup & procurement.",
+    "year": 2013
+  },
+  {
+    "id": "uho1",
+    "institution": "Universitas Halu Oleo",
+    "city": "Kendari, Southeast Sulawesi",
+    "lat": -4.00465080911873,
+    "lon": 122.52193011477908,
+    "focus": "Procurement of molecular biology laboratory equipment at the university's biotechnology development unit.",
+    "year": 2013
+  },
+  {
+    "id": "bpib-jak1",
+    "institution": "Indonesian Customs Laboratory (BPIB)",
+    "city": "Jakarta",
+    "lat": -6.171665911779831,
+    "lon": 106.86499628716615,
+    "focus": "Procurement of laboratory equipment.",
+    "year": 2012
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Labtron UK",
+    "logo": "../assets/img/agent/distributor_labtron_uk-removebg.png",
+    "url": "https://labtron.com"
+  },
+  {
+    "name": "Witeg Germany",
+    "logo": "../assets/img/agent/distributor_witeg_germany.png",
+    "url": "https://www.witeg.de/en/"
+  },
+  {
+    "name": "Hira Türkiye",
+    "logo": "../assets/img/agent/distributor_hira_turkiye-removebg.png",
+    "url": "https://www.hira.com.tr/En"
+  }
+]
