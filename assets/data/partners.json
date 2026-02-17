@@ -13,5 +13,11 @@
     "name": "Hira Türkiye",
     "logo": "../assets/img/agent/distributor_hira_turkiye-removebg.png",
     "url": "https://www.hira.com.tr/En"
+  },
+    {
+    "name": "YanBioTech China",
+    "logo": "../assets/img/agent/distributor_ybc_china.png",
+    "url": "https://www.yanbioinstruments.com/"
   }
 ]
+
