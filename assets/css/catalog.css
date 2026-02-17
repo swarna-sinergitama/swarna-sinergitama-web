@@ -1,0 +1,280 @@
+.catalog-head{display:flex;justify-content:space-between;align-items:flex-end;gap:18px;border-bottom:1px solid #ccc;padding-bottom:18px}
+.catalog-grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:28px;margin-top:34px}
+.product-card{background:#fff;border:1px solid var(--border-color);padding:14px;position:relative;cursor:pointer;transition:transform .25s ease, box-shadow .25s ease}
+.product-card:hover{transform:translateY(-5px);box-shadow:5px 5px 0 var(--primary-olive)}
+.product-img{width:100%;height:200px;object-fit:contain;background:#f4f4f4;border-bottom:1px solid #eee;margin-bottom:14px}
+.product-badge{position:absolute;top:10px;right:10px;background:var(--primary-red);color:#fff;font-size:.7rem;padding:3px 8px;text-transform:uppercase}
+.product-title{font-family:var(--font-heading);font-size:1.2rem;margin-bottom:4px}
+.product-meta{font-size:.9rem;color:#666;margin-bottom:12px}
+
+/* ===== MODAL (FIX: gambar selalu rapi di frame, tidak bikin modal "membesar") ===== */
+.modal{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.8);
+  backdrop-filter:blur(5px);
+  z-index:2000;
+}
+
+.modal-content{
+  background:#fff;
+  width:min(980px, 94vw);
+  margin:5vh auto;
+  border:1px solid #888;
+  position:relative;
+  animation:slideUp .35s ease;
+
+  /* kunci tinggi modal agar tidak ikut membesar oleh gambar portrait */
+  max-height:90vh;
+  overflow:hidden;
+}
+
+@keyframes slideUp{
+  from{transform:translateY(40px);opacity:0}
+  to{transform:translateY(0);opacity:1}
+}
+
+.modal-close{
+  position:absolute;
+  right:18px;
+  top:10px;
+  font-size:30px;
+  color:#aaa;
+  cursor:pointer;
+  z-index:5;
+}
+.modal-close:hover{color:#000}
+
+/* isi modal dibuat setinggi modal-content */
+.modal-body{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  height:90vh;            /* mengikuti max-height modal-content */
+}
+
+.modal-img{
+  background:#f4f4f4;
+  padding:24px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100%;
+  overflow:hidden;        /* kalau ada yang aneh, tetap tidak "meluber" */
+}
+
+/* kunci img agar selalu "contain" di frame */
+.modal-img img{
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  display:block;
+}
+
+.modal-details{
+  padding:28px;
+  height:100%;
+  overflow:auto;          /* scroll hanya di sisi detail */
+}
+
+.spec-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.9rem}
+.spec-table td{border-bottom:1px solid #ddd;padding:8px 0}
+.spec-key{font-weight:600;color:var(--primary-olive);width:40%}
+
+/* Mobile */
+@media (max-width:768px){
+  .modal-content{
+    max-height:92vh;
+  }
+  .modal-body{
+    grid-template-columns:1fr;
+    height:auto;
+  }
+  .modal-img{
+    height:340px;         /* frame gambar di mobile */
+  }
+  .modal-details{
+    max-height:52vh;
+  }
+}
+
+.catalog-partners{
+  text-align:right;
+}
+
+.partners-row{
+  display:flex;
+  justify-content:flex-end;
+  gap:14px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+
+.partner-logo{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid rgba(0,0,0,.12);
+  background:rgba(255,255,255,.55);
+  padding:10px 12px;
+  border-radius:10px;
+  transition:transform .15s ease, opacity .15s ease;
+  opacity:.9;
+}
+
+.partner-logo:hover{
+  transform:translateY(-2px);
+  opacity:1;
+}
+
+.partner-logo img{
+  height:26px;   /* biar semua seragam */
+  width:auto;
+  display:block;
+  filter:grayscale(100%); /* gaya retro, opsional */
+}
+.partner-logo:hover img{
+  filter:grayscale(0%);
+}
+
+/* Pagination (Catalog) */
+.catalog-pagination{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin:28px 0 10px;
+  flex-wrap:wrap;
+}
+
+.catalog-pagination .page-info{
+  color:#666;
+  font-size:.92rem;
+  margin:0 8px;
+}
+
+.page-numbers{
+  display:flex;
+  gap:8px;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.page-num{
+  border:1px solid rgba(0,0,0,.35);
+  background:rgba(255,255,255,.55);
+  padding:8px 12px;
+  border-radius:999px;
+  cursor:pointer;
+  font-size:.9rem;
+  transition:transform .15s ease, background .15s ease, border-color .15s ease, opacity .15s ease;
+}
+
+.page-num:hover{
+  transform:translateY(-1px);
+  border-color:rgba(0,0,0,.55);
+}
+
+.page-num.is-active,
+.page-num[aria-current="page"]{
+  background:var(--primary-olive);
+  border-color:var(--primary-olive);
+  color:#fff;
+}
+
+.page-ellipsis{
+  color:#666;
+  user-select:none;
+}
+
+.catalog-pagination .btn{
+  min-width:120px;
+  justify-content:center;
+}
+
+.catalog-pagination .btn:disabled{
+  opacity:.45;
+  cursor:not-allowed;
+  transform:none;
+}
+
+/* Mobile: stack nicer */
+@media(max-width:560px){
+  .catalog-pagination{
+    gap:10px;
+    margin-top:22px;
+  }
+  .catalog-pagination .btn{
+    min-width:auto;
+    padding:10px 14px;
+  }
+  .catalog-pagination .page-info{
+    width:100%;
+    text-align:center;
+    order:3;
+  }
+}
+
+.catalog-title{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.catalog-subtitle{
+  max-width: 520px;
+  color:#555;
+  font-size:1.05rem;
+  line-height:1.5;
+  margin: 0;
+}
+
+/* Wrapper area gambar + thumbs */
+.modal-media{
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* <-- ini yang bikin semuanya center */
+  width: 100%;
+}
+
+/* Gambar utama center */
+#modalImg{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Thumbnail row center */
+.modal-thumbs{
+  width: 100%;
+  display: flex;
+  justify-content: center;  /* <-- center thumbnails */
+  gap: 10px;
+  margin-top: 12px;
+  overflow-x: auto;
+  padding: 0 12px 6px;
+  box-sizing: border-box;
+}
+
+/* Thumbnail item */
+.modal-thumbs img{
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex: 0 0 auto;
+}
+
+.catalog-filters{
+  display:flex; gap:10px; flex-wrap:wrap;
+  align-items:center; margin: 16px 0;
+}
+.catalog-filters input, .catalog-filters select{
+  padding:10px 12px; border:1px solid #ddd; border-radius:10px;
+}
+.catalog-filters button{
+  padding:10px 14px; border-radius:10px; border:1px solid #ddd;
+}

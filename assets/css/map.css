@@ -1,0 +1,307 @@
+/* =========================
+   CLIENTS PAGE (CLEAN)
+   ========================= */
+
+.clients-hero{
+  padding-top:140px;
+  padding-bottom:34px;
+  border-bottom:1px solid rgba(0,0,0,.12);
+  background:rgba(232,232,227,.35);
+}
+.clients-hero h1{ margin:0; }
+.clients-hero .sub{ margin-top:8px; color:#666; }
+
+.clients-wrap{
+  padding:42px 0 18px;
+  background:#E8E8E3;
+}
+
+/* =========================
+   STACK LAYOUT (Hero -> Toprow -> Map -> Table)
+   ========================= */
+.clients-layout{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:18px;
+  align-items:start;
+}
+
+/* =========================
+   TOP ROW: Our Clients + Static Logo Box
+   ========================= */
+.clients-toprow{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  align-items:center;
+  gap:16px;
+  margin:18px 0 18px;
+}
+
+/* Title "Our Clients" + orange dot */
+.clients-minihead{
+  display:inline-flex;
+  align-items:center;
+  gap:12px;
+  margin:0;
+}
+.clients-minihead-text{
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  line-height:1;
+  color: var(--text-main);
+}
+.clients-minihead-dot{
+  width:12px;
+  height:12px;
+  border-radius:999px;
+  background:var(--primary-red);
+  box-shadow:0 0 0 6px rgba(221,76,53,.18);
+}
+
+/* Logo Box (pill panjang, statis) */
+.clients-logo-box{
+  width:100%;
+  min-width:0;
+  height:54px;
+  border:1px solid rgba(0,0,0,.16);
+  background:rgba(255,255,255,.55);
+  border-radius:999px;
+  padding:0 18px;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+}
+
+/* Track statis: isi ruang box secara merata */
+.clients-logo-track{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly; /* auto spacing mengikuti lebar box */
+  gap:14px;                    /* fallback */
+  flex-wrap:nowrap;
+  animation:none !important;
+  transform:none !important;
+}
+
+.clients-logo-item{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 auto;
+}
+
+.clients-logo-item img{
+  height:22px;
+  width:auto;
+  display:block;
+  opacity:.8;
+  filter:grayscale(100%);
+  transition: opacity .15s ease, filter .15s ease, transform .15s ease;
+}
+.clients-logo-item:hover img{
+  opacity:1;
+  filter:grayscale(0%);
+  transform:translateY(-1px);
+}
+
+/* Responsive top row */
+@media (max-width: 900px){
+  .clients-toprow{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+  .clients-logo-box{
+    height:auto;
+    padding:10px 14px;
+    border-radius:16px;
+  }
+  .clients-logo-track{
+    justify-content:flex-start;
+    flex-wrap:wrap; /* biar tidak kepanjangan di mobile */
+  }
+}
+
+/* =========================
+   MAP (Leaflet)
+   ========================= */
+.client-map{
+  background:#fff;
+  border:1px solid rgba(0,0,0,.25);
+  position:relative;
+  padding:14px;
+}
+
+.client-map-inner{
+  position:relative;
+  height:520px;
+  min-height:520px;
+  border:1px solid rgba(0,0,0,.2);
+  overflow:hidden;
+  background:#fff;
+}
+
+/* Leaflet canvas fills the inner box */
+#leafletMap{
+  position:absolute;
+  inset:0;
+  z-index:0;
+}
+
+/* Preset buttons (optional) */
+.map-presets{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+
+@media(max-width:980px){
+  .client-map-inner{ height:440px; min-height:440px; }
+}
+
+/* =========================
+   TABLE
+   ========================= */
+.clients-table-panel{
+  width:100%;
+  min-width:0;
+  padding-top:6px;
+}
+
+.clients-table-wrap{
+  background:rgba(255,255,255,.55);
+  border:1px solid rgba(0,0,0,.18);
+  max-height:360px;
+  overflow:auto;
+}
+
+.clients-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:.95rem;
+}
+
+.clients-table th{
+  text-align:left;
+  font-weight:600;
+  padding:12px 14px;
+  border-bottom:1px solid rgba(0,0,0,.12);
+  background:rgba(255,255,255,.65);
+}
+
+.clients-table td{
+  padding:12px 14px;
+  border-bottom:1px solid rgba(0,0,0,.10);
+  vertical-align:top;
+}
+
+.clients-table tr{ transition:background .15s ease; }
+.clients-table tr:hover{ background:rgba(221,76,53,.06); }
+.clients-table tr.is-active{ background:rgba(81,96,45,.08); }
+
+.clients-table .muted{
+  color:#666;
+  font-size:.9rem;
+  margin-top:3px;
+  display:block;
+}
+
+/* Year column right aligned */
+.clients-table th:last-child,
+.clients-table td:last-child{
+  text-align:right;
+  white-space:nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* =========================
+   BOTTOM LOGO MARQUEE (existing)
+   ========================= */
+.logo-marquee{
+  margin-top:26px;
+  border-top:1px solid rgba(0,0,0,.12);
+  border-bottom:1px solid rgba(0,0,0,.12);
+  background:rgba(255,255,255,.35);
+  overflow:hidden;
+  padding:14px 0;
+}
+
+.logo-track{
+  display:flex;
+  width:max-content;
+  gap:46px;
+  align-items:center;
+  animation:logoMarquee 26s linear infinite;
+}
+
+@keyframes logoMarquee{
+  from{ transform:translateX(0) }
+  to{ transform:translateX(-50%) }
+}
+
+.logo-item{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  opacity:.60;
+  filter:grayscale(100%);
+  transition:opacity .2s ease, filter .2s ease;
+}
+
+.logo-item:hover{ opacity:.95; filter:grayscale(0%); }
+.logo-item img{ height:34px; width:auto; display:block; }
+
+/* =========================
+   OUR CLIENTS ROW — BIGGER + TIGHTER
+   taruh di paling bawah map.css
+========================= */
+
+/* Kurangi padding atas section supaya tidak banyak ruang kosong */
+.clients-wrap{
+  padding-top: 18px;    /* sebelumnya 42px */
+  padding-bottom: 18px;
+}
+
+/* Kurangi jarak antar blok di layout stack */
+.clients-layout--stack{
+  gap: 12px;            /* sebelumnya 18px */
+}
+
+/* Row "Our Clients" + logo box: lebih rapat & lebih tinggi */
+.clients-toprow{
+  gap: 12px;            /* jarak antara judul & box */
+  margin: 6px 0 8px;   /* sebelumnya besar */
+  align-items: center;
+}
+
+/* Besarkan tulisan Our Clients */
+.clients-minihead-text{
+  font-size: 2.2rem;   /* naikkan sesuai selera */
+  line-height: 1;
+}
+
+/* Besarkan dot */
+.clients-minihead-dot{
+  width: 14px;
+  height: 14px;
+  box-shadow: 0 0 0 7px rgba(221, 76, 53, .18);
+}
+
+/* Besarkan box logo (pill) */
+.clients-logo-box{
+  height: 72px;         /* sebelumnya 54px */
+  padding: 0 20px;
+  border-radius: 999px;
+}
+
+/* Logo lebih besar */
+.clients-logo-item img{
+  height: 34px;         /* sebelumnya 22px */
+}
+
+/* Kalau masih terasa jarak ke map kebesaran, rapatkan jarak map */
+.client-map{
+  margin-top: 6px;
+}

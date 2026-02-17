@@ -1,0 +1,15 @@
+:root{
+  --primary-red:#DD4C35;
+  --primary-olive:#51602D;
+  --bg-color:#F7F7F2;
+  --text-main:#1A1A1A;
+  --border-color:#1A1A1A;
+  --card-bg:#FFFFFF;
+
+  --font-heading:'Playfair Display', serif;
+  --font-body:'Space Grotesk', sans-serif;
+
+  --container:1200px;
+  --radius-pill:999px;
+  --shadow-retro:10px 10px 0 var(--primary-olive);
+}
