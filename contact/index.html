@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Swarna</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/contact.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <a class="logo" href="../index.html" aria-label="Swarna Home">
+        <img class="logo-mark" src="../assets/img/logo/logo_no_bg.png" alt="Swarna logo">
+        <span class="brand-olive">SWARNA</span><span class="brand-red">CORP.</span>
+      </a>
+
+
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="../map/index.html">Clients &amp; Services</a>
+        <a href="../catalog/index.html">Catalog</a>
+        <a href="index.html">Contact</a>
+      </div>
+
+      <a class="btn btn-primary" href="index.html">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section-padding" style="padding-top:140px;">
+  <div class="container">
+    <h1 class="h2">Contact</h1>
+    <p class="muted" style="margin-top:8px;">Tell us what you need—equipment procurement, consultation, or lab development support.</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3 style="font-family:var(--font-heading);margin-bottom:10px;">Send a message</h3>
+        <form id="contactForm">
+          <div style="display:grid;gap:12px;">
+            <input id="name" type="text" name="name" placeholder="Your name" aria-label="Your name" required />
+            <input id="email" type="email" name="email" placeholder="Email address" aria-label="Email address" required />
+            <textarea id="message" name="message" placeholder="What can we help you with?" aria-label="Message" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <p id="formHint" class="muted" style="font-size:.85rem;"></p>
+          </div>
+        </form>
+
+      </div>
+
+      <div class="contact-card">
+        <h3 style="font-family:var(--font-heading);margin-bottom:10px;">Head Office</h3>
+        <p>GKM Green Tower Lt. 20<br>Jl. TB Simatupang Kav. 89<br>Jakarta 12520 Indonesia</p>
+        <hr class="hr" style="margin:16px 0;">
+        <p><strong>Phone:</strong> +62 812 8852 9050</p>
+        <p><strong>Email:</strong> imran@swarnacorp.co.id</p>
+        <p><strong>INAPROC:</strong><a href="https://katalog.inaproc.id/pt-swarna-sinergitama" target="_blank" rel="noopener noreferrer"> Swarna E-Catalog</a></p>
+        <p><strong>LinkedIn:</strong><a href="https://www.linkedin.com/company/swarna-sinergitama" target="_blank" rel="noopener noreferrer"> Swarna Corp.</a></p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="copyright">© 2026 PT Swarna Sinergitama. All Rights Reserved.</div>
+  </div>
+</footer>
+
+<script>
+  const form = document.getElementById("contactForm");
+  const hint = document.getElementById("formHint");
+
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    // Optional: tampilkan hint kecil
+    hint.textContent = "Opening your email app…";
+
+    const subject = encodeURIComponent(`[Website Inquiry] ${name}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}\n`
+    );
+
+    window.location.href = `mailto:imran@swarnacorp.co.id?subject=${subject}&body=${body}`;
+
+    // Optional: reset hint setelah beberapa detik
+    setTimeout(() => hint.textContent = "", 2500);
+  });
+</script>
+
+</body>
+</html>
