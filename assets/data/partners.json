@@ -1,21 +1,21 @@
 [
   {
-    "name": "Labtron UK",
+    "name": "Labtron",
     "logo": "../assets/img/agent/distributor_labtron_uk-removebg.png",
     "url": "https://labtron.com"
   },
   {
-    "name": "Witeg Germany",
+    "name": "Witeg",
     "logo": "../assets/img/agent/distributor_witeg_germany.png",
     "url": "https://www.witeg.de/en/"
   },
   {
-    "name": "Hira Türkiye",
+    "name": "Hira",
     "logo": "../assets/img/agent/distributor_hira_turkiye-removebg.png",
     "url": "https://www.hira.com.tr/En"
   },
     {
-    "name": "YanBioTech China",
+    "name": "YanBioTech",
     "logo": "../assets/img/agent/distributor_ybc_china.png",
     "url": "https://www.yanbioinstruments.com/"
   }
