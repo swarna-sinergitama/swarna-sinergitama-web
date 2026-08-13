@@ -1,83 +1,5 @@
 [
   {
-    "id": "micro-volume-spectro",
-    "badge": "Import",
-    "title": "YanBioTech YB-Nano-T Micro Volume Spectrophotometer",
-    "meta": "YB-Nano-T | YanBioTech",
-    "img": "../assets/img/katalog/micro-volume-spectrophotometer.png",
-    "tags": [
-      "IMPORT",
-      "CHINA ORIGIN",
-      "MICROVOLUME"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/micro-volume-spectrophotometer",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "The Micro Volume Spectrophotometer YanBioTech YB-Nano-T supports both quantitative and qualitative analysis with accurate, consistent results. Its 180 to 910 nm wavelength range covers a wide variety of UV-Vis analysis needs. The user-friendly interface suits research, clinical, and quality control (QC) activities. A great fit for laboratories that need reliable optical measurement performance for daily routines.",
-    "specs": {
-      "Wavelength Range": "180 to 910 nm",
-      "Sample Volume": "0.5 to 2 µL",
-      "Nucleic Acid Range (dsDNA)": "2 to 4500 ng/µL",
-      "Path Length": "0.1 mm, 1.0 mm, 1.2 mm",
-      "Wavelength Accuracy": "± 1 nm",
-      "Wavelength Precision": "± 0.2 nm",
-      "Absorbance Precision": "0.002 Abs",
-      "Spectral Resolution": "≤ 1.5 nm (FWHM @ Hg 253.7 nm)",
-      "Measurement Time": "< 6 s",
-      "Light Source": "Xenon flash lamp",
-      "Detector": "2048-element linear CMOS array",
-      "Operating System": "Android"
-    },
-    "brand": "YanBioTech",
-    "origin": "China",
-    "categories": [
-      "MICROVOLUME"
-    ],
-    "topics": [
-      "Life Science & Biotechnology"
-    ],
-    "topic": "Life Science & Biotechnology"
-  },
-  {
-    "id": "thermal-cycler-yb-pcr1",
-    "badge": "Import",
-    "title": "YanBioTech YB-PCR1 Thermal Cycler",
-    "meta": "YB-PCR1 | YanBioTech",
-    "img": "../assets/img/katalog/thermal-cycler.png",
-    "tags": [
-      "IMPORT",
-      "CHINA ORIGIN",
-      "PCR"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/thermal-cycler-yb-pcr1",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "A reliable solution for DNA/RNA amplification (PCR), the YanBioTech YB-PCR1 Thermal Cycler combines stable performance with easy operation for daily routines. Key specifications include Temperature Control Method: Block/Tube, Block Temperature: 0 to 105°C, and Block Temperature Accuracy: ≤ ±0.2°C. Suitable for molecular biology, microbiology, cell culture, and biotechnology research that require efficient DNA/RNA amplification (PCR).",
-    "specs": {
-      "Temperature Control Method": "Block/Tube",
-      "Block Temperature": "0 to 105°C",
-      "Block Temperature Accuracy": "≤ ±0.2°C",
-      "Heating Up Rate": "6°C/s",
-      "Cooling Down Rate": "6°C/s",
-      "Gradient Temperature Range": "30 to 105°C",
-      "Gradient Set Span Max": "42°C",
-      "Gradient Temperature Accuracy": "± 0.3°C",
-      "Timing Range": "0 to 99h60min",
-      "Timer": "1s to 99:99:99",
-      "Time Increase/Decrease": "-599 to 599 s",
-      "Temperature Increase/Decrease": "-9.9°C to 9.9°C"
-    },
-    "brand": "YanBioTech",
-    "origin": "China",
-    "categories": [
-      "PCR"
-    ],
-    "topics": [
-      "Life Science & Biotechnology"
-    ],
-    "topic": "Life Science & Biotechnology"
-  },
-  {
     "id": "labtron-benchtop-ph-meter",
     "badge": "Import",
     "title": "Labtron LBPM-A20 Benchtop pH Meter",
@@ -150,7 +72,7 @@
   {
     "id": "mini-centrifuge-yb-mc7000",
     "badge": "Import",
-    "title": "YanBioTech YB-MC7000 Mini Centrifuge",
+    "title": "Mini Centrifuge (YB-MC7000",
     "meta": "YB-MC7000 | YanBioTech",
     "img": "../assets/img/katalog/mini-centrifuge-yb-mc7000.png",
     "tags": [
@@ -295,42 +217,9 @@
     "topic": "General Laboratory Equipment"
   },
   {
-    "id": "high-speed-15000rpm-centrifuge-yb-mc15000",
-    "badge": "Import",
-    "title": "YanBioTech YB-MC15000 High Speed 15000RPM Centrifuge",
-    "meta": "YB-MC15000 | YanBioTech",
-    "img": "../assets/img/katalog/yanbiotech-high-speed-15000rpm-centrifuge-yb-mc15000.png",
-    "tags": [
-      "IMPORT",
-      "CHINA ORIGIN",
-      "CENTRIFUGE"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/high-speed-15000rpm-centrifuge-yb-mc15000",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "The High Speed 15000RPM Centrifuge YanBioTech YB-MC15000 is designed for fast, consistent sample separation in the lab. It supports 15000 RPM to speed up sample preparation for research and diagnostic workflows. Ideal for molecular biology applications such as DNA/RNA work, miniprep, and general sample preparation.",
-    "specs": {
-      "Max Speed": "15000 RPM",
-      "Control Mode": "Constant Speed",
-      "Max RCF": "14104 g",
-      "Rotor Capacity": "02.0/5/15/2ml x 12 + 0.5/1.0ml x 12",
-      "Motor Type": "DC",
-      "Voltage": "DC 24 V"
-    },
-    "brand": "YanBioTech",
-    "origin": "China",
-    "categories": [
-      "CENTRIFUGE"
-    ],
-    "topics": [
-      "Medical & Clinic Diagnostics"
-    ],
-    "topic": "Medical & Clinic Diagnostics"
-  },
-  {
     "id": "laboratory-hotplate-magnetic-stirrer-yb-msh",
     "badge": "Import",
-    "title": "YanBioTech YB-MSH Laboratory Hotplate Magnetic Stirrer",
+    "title": "Laboratory Hotplate Magnetic Stirrer (YB-MSH)",
     "meta": "YB-MSH | YanBioTech",
     "img": "../assets/img/katalog/yanbiotech-laboratory-hotplate-magnetic-stirrer-yb-msh.png",
     "tags": [
@@ -424,70 +313,6 @@
     "origin": "China",
     "categories": [
       "BACTERIA WATER TEST"
-    ],
-    "topics": [
-      "General Laboratory Equipment"
-    ],
-    "topic": "General Laboratory Equipment"
-  },
-  {
-    "id": "yanbio-8-channel-pipette-adjustable-volume-multichannel-pipette",
-    "badge": "Import",
-    "title": "YanBio 8 Channel Pipette",
-    "meta": "8-Channel Multichannel Pipette | YanBio",
-    "img": "../assets/img/katalog/yanbio-8-channel-multichannel-pipette.png",
-    "tags": [
-      "PIPETTE",
-      "MULTICHANNEL",
-      "8 CHANNEL"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/yanbio-8-channel-pipette-adjustable-volume-multichannel-pipette",
-    "kbki": "3719501016",
-    "warranty": "12 Months",
-    "desc": "The YanBio 8 Channel Pipette (YANBIO-8) is designed for laboratory operations with consistent results and easy control—ideal for labs that demand efficiency. Key specifications include Volume Options: 1–10 µL, 10–100 µL, and 50–300 µL. Suitable for molecular biology, microbiology, cell culture, and biotechnology research that require efficient laboratory operations.",
-    "specs": {
-      "Volume Options": "1–10 µL; 10–100 µL; 50–300 µL; 100–5000 µL",
-      "Channels": "8",
-      "Application": "PCR, ELISA, cell culture, high-throughput liquid handling",
-      "Unit": "Unit"
-    },
-    "brand": "YanBioTech",
-    "origin": "China",
-    "categories": [
-      "PIPETTE",
-      "MULTICHANNEL",
-      "8 CHANNEL"
-    ],
-    "topics": [
-      "Life Science & Biotechnology"
-    ],
-    "topic": "Life Science & Biotechnology"
-  },
-  {
-    "id": "yanbio-single-channel-adjustable-volume-micro-pipette",
-    "badge": "Import",
-    "title": "YanBio Single Channel Adjustable Volume Micro Pipette",
-    "meta": "Single Channel Micropipette | YanBio",
-    "img": "../assets/img/katalog/yanbio-single-channel-micro-pipette.png",
-    "tags": [
-      "MICROPIPETTE",
-      "SINGLE CHANNEL"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/yanbio-single-channel-adjustable-volume-micro-pipette",
-    "kbki": "3719501016",
-    "warranty": "12 Months",
-    "desc": "The YanBio Single Channel Adjustable Volume Micro Pipette is designed for laboratory operations with consistent results and easy control—ideal for labs that demand efficiency. Key specifications include Volume Options: 0.1–2.5 µL, 0.5–10 µL, and 2–20 µL. Suitable for research, educational, and quality control (QC) laboratories that require efficient laboratory operations.",
-    "specs": {
-      "Volume Options": "0.1–2.5 µL; 0.5–10 µL; 2–20 µL; 5–50 µL; 10–100 µL; 20–200 µL; 100–1000 µL; 100–5000 µL; 1000–5000 µL; 1–10 mL",
-      "Channels": "1",
-      "Application": "Molecular biology, biochemistry, chemistry, cell biology",
-      "Unit": "Paket"
-    },
-    "brand": "YanBioTech",
-    "origin": "China",
-    "categories": [
-      "MICROPIPETTE",
-      "SINGLE CHANNEL"
     ],
     "topics": [
       "General Laboratory Equipment"
