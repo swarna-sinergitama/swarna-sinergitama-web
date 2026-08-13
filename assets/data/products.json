@@ -1,42 +1,5 @@
 [
   {
-    "id": "spectro",
-    "badge": "Best Seller",
-    "title": "Labtron LUS-A33 Single Beam UV-Vis Spectrophotometer",
-    "meta": "LUS-A33 | Labtron UK",
-    "img": "../assets/img/katalog/labtron-single-beam-uv-vis-spectrophotometer.png",
-    "tags": [
-      "IMPORT",
-      "UK ORIGIN"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/labtron-single-beam-uv-vis-spectrophotometer",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "Single Beam UV-Vis Spectrophotometer Labtron LUS-A33 membantu analisis kuantitatif maupun kualitatif dengan hasil yang akurat dan konsisten. Rentang panjang gelombang 190 to 1100 nm mendukung berbagai kebutuhan analisis UV-Vis. Antarmuka yang mudah digunakan cocok untuk aktivitas riset, klinis, maupun quality control (QC). Solusi tepat bagi laboratorium yang membutuhkan performa pengukuran optik yang andal untuk rutinitas harian.",
-    "specs": {
-      "Brand": "Labtron",
-      "Country of Origin": "United Kingdom",
-      "Product Type": "Single Beam UV-Vis Spectrophotometer",
-      "Model / Series": "LUS-A33",
-      "Key Specifications": "Wavelength Range: 190 to 1100 nm | Spectral Bandwidth: 0.5, 1, 2, 4 and 5 nm | Optical System: Single Beam, Grating 1200 lines/mm | Wavelength Accuracy: ± 0.1nm at 656.1 nm | Scanning Speed: Hi, Med, Low (Max. 3000 nm/min) | Display: 7-inches Color Screen | Light Source: Deuterium and tungsten lamp",
-      "Power": "—",
-      "Power Supply": "—",
-      "Dimensions": "P 42 cm x L 37 cm x T 27 cm",
-      "Weight": "27 kg",
-      "Materials": "—",
-      "Included Accessories": "—",
-      "Warranty": "12 Months",
-      "Certifications / Standards": "—"
-    },
-    "brand": "Labtron UK",
-    "origin": "United Kingdom",
-    "categories": [],
-    "topics": [
-      "Medical & Clinic Diagnostics"
-    ],
-    "topic": "Medical & Clinic Diagnostics"
-  },
-  {
     "id": "micro-volume-spectro",
     "badge": "Import",
     "title": "YanBioTech YB-Nano-T Micro Volume Spectrophotometer",
@@ -399,46 +362,6 @@
     "topic": "Medical & Clinic Diagnostics"
   },
   {
-    "id": "witeg-ultrasonic-cleaner",
-    "badge": "Import",
-    "title": "Witeg Ultrasonic Cleaner",
-    "meta": "Digital Ultrasonic Cleaner | Witeg Germany",
-    "img": "../assets/img/katalog/witeg-ultrasonic-cleaner.png",
-    "tags": [
-      "IMPORT",
-      "GERMANY ORIGIN",
-      "ULTRASONIC"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/witeg-ultrasonic-cleaner",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "Solusi andal untuk operasional laboratorium, Witeg Ultrasonic Cleaner menggabungkan performa stabil dan kemudahan operasi untuk rutinitas harian. Spesifikasi kunci mencakup Capacity Options: 6 / 10 / 22 / 30 / 47 / 60 / 70 / 74 L, Tank Material: Stainless steel (with lid), serta Heating Temperature: Up to 80°C. Cocok untuk laboratorium riset, pendidikan, dan quality control (QC) yang membutuhkan operasional laboratorium secara efisien.",
-    "specs": {
-      "Brand": "Witeg",
-      "Country of Origin": "Germany",
-      "Product Type": "Digital Ultrasonic Cleaner",
-      "Model / Series": "—",
-      "Key Specifications": "Capacity Options: 6 / 10 / 22 / 30 / 47 / 60 / 70 / 74 L | Tank Material: Stainless steel (with lid) | Heating Temperature: Up to 80°C | Timer: 0 to 60 min | Tank Size (Inner): 290 x 150 x 150 mm",
-      "Power": "425 W",
-      "Power Supply": "230 V, 50/60 Hz",
-      "Dimensions": "P 64 cm x L 38 cm x T 37 cm",
-      "Weight": "10 kg",
-      "Materials": "—",
-      "Included Accessories": "Wire basket",
-      "Warranty": "12 Months",
-      "Certifications / Standards": "—"
-    },
-    "brand": "Witeg Germany",
-    "origin": "Germany",
-    "categories": [
-      "ULTRASONIC"
-    ],
-    "topics": [
-      "General Laboratory Equipment"
-    ],
-    "topic": "General Laboratory Equipment"
-  },
-  {
     "id": "laboratory-hotplate-magnetic-stirrer-yb-msh",
     "badge": "Import",
     "title": "YanBioTech YB-MSH Laboratory Hotplate Magnetic Stirrer",
@@ -512,46 +435,6 @@
     "origin": "United Kingdom",
     "categories": [
       "DRYING OVEN"
-    ],
-    "topics": [
-      "General Laboratory Equipment"
-    ],
-    "topic": "General Laboratory Equipment"
-  },
-  {
-    "id": "vortex-mixer-yanbiotech-ybvm",
-    "badge": "Import",
-    "title": "YanBioTech YBVM Vortex Mixer",
-    "meta": "YBVM | YanBioTech",
-    "img": "../assets/img/katalog/yanbiotech-vortex-mixer-ybvm.png",
-    "tags": [
-      "IMPORT",
-      "CHINA ORIGIN",
-      "VORTEX MIXER"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/vortex-mixer-yanbiotech-ybvm",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "Vortex Mixer YanBioTech YBVM memberikan mixing cepat dengan gerakan orbital yang stabil untuk homogenisasi sampel harian. Pengaturan 260 to 3500 RPM memudahkan penyesuaian intensitas mixing untuk microtube maupun microplate. Cocok untuk laboratorium riset, pendidikan, dan QC yang membutuhkan hasil mixing yang konsisten dan repeatable.",
-    "specs": {
-      "Brand": "YanBioTech",
-      "Country of Origin": "China",
-      "Product Type": "Vortex Mixer",
-      "Model / Series": "YBVM",
-      "Key Specifications": "Speed Range: 260 to 3500 RPM | Operation Modes: Button (touch) and continuous | Oscillation Mode: Circular | Orbit Diameter: 4 mm | Motor Type: Brushless DC motor | Motor Input Power: 36 W | Voltage: AC 100 to 240 V | Frequency: 50/60 Hz",
-      "Power": "—",
-      "Power Supply": "AC 100 to 240 V",
-      "Dimensions": "140 x 140 x 127 mm",
-      "Weight": "4.4 kg",
-      "Materials": "—",
-      "Included Accessories": "—",
-      "Warranty": "12 Months",
-      "Certifications / Standards": "—"
-    },
-    "brand": "YanBioTech",
-    "origin": "China",
-    "categories": [
-      "VORTEX MIXER"
     ],
     "topics": [
       "General Laboratory Equipment"
@@ -927,46 +810,6 @@
       "General Laboratory Equipment"
     ],
     "topic": "General Laboratory Equipment"
-  },
-  {
-    "id": "automatic-coagulation-analyzer-labtron-lcaz-b10",
-    "badge": "Best Seller",
-    "title": "Labtron LCAZ-B10 Automatic Coagulation Analyzer",
-    "meta": "LCAZ-B10 | Labtron UK",
-    "img": "../assets/img/katalog/labtron-automatic-coagulation-analyzer-lcaz-b10.png",
-    "tags": [
-      "COAGULATION ANALYZER",
-      "HEMOSTASIS"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/automatic-coagulation-analyzer-labtron-lcaz-b10",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "Untuk operasional laboratorium berpresisi tinggi, Labtron LCAZ-B10 Automatic Coagulation Analyzer menghadirkan kontrol yang intuitif dan performa yang siap dipakai setiap hari. Spesifikasi kunci mencakup Test Methods: Immunoturbidimetric, chromogenic substrate, PT-derived FIB: Yes, serta Test Parameters: PT, APTT, FIB, TT, PT-D-dimer, FDP, AT-III and other tests. Cocok untuk laboratorium klinik, rumah sakit, dan QC diagnostik yang membutuhkan operasional laboratorium secara efisien.",
-    "specs": {
-      "Brand": "Labtron",
-      "Country of Origin": "United Kingdom",
-      "Product Type": "Automatic Coagulation Analyzer",
-      "Model / Series": "LCAZ-B10",
-      "Key Specifications": "Test Methods: Immunoturbidimetric, chromogenic substrate | PT-derived FIB: Yes | Test Parameters: PT, APTT, FIB, TT, PT-D-dimer, FDP, AT-III and other tests | Chromogenic Substrate Test: Yes | Coagulation Test Channel: 10 | Pre-warming Station: 37°C | Incubation/Heating Cuvettes: 37°C, 20 positions | Reagents Position: 61 positions | Reagent Layout: Double-zone inclined layout | Refrigeration Temperature: 5°C | Sample Capacity: 60 samples | Sampling System: 2 sample probes (optional 3rd sample probe) | More: 9 additional parameters",
-      "Power": "—",
-      "Power Supply": "—",
-      "Dimensions": "950 x 700 x 635 mm",
-      "Weight": "—",
-      "Materials": "—",
-      "Included Accessories": "—",
-      "Warranty": "12 Months",
-      "Certifications / Standards": "—"
-    },
-    "brand": "Labtron UK",
-    "origin": "United Kingdom",
-    "categories": [
-      "COAGULATION ANALYZER",
-      "HEMOSTASIS"
-    ],
-    "topics": [
-      "Medical & Clinic Diagnostics"
-    ],
-    "topic": "Medical & Clinic Diagnostics"
   },
   {
     "id": "auto-chemistry-analyzer-labtron-laca-a10",
@@ -1849,90 +1692,6 @@
     "topic": "Cold Chain & Storage"
   },
   {
-    "id": "advanced-electronic-pregnant-women-examination-manikin",
-    "badge": "Import",
-    "title": "Advanced Electronic Pregnant Women Examination Manikin",
-    "meta": "Prenatal examination training manikin | China",
-    "img": "../assets/img/katalog/advanced-electronic-pregnant-women-examination-manikin.png",
-    "tags": [
-      "MEDICAL TRAINING",
-      "OBGYN",
-      "PRENATAL"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/advanced-electronic-pregnant-women-examination-manikin",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "Advanced Electronic Pregnant Women Examination Manikin adalah manekin pelatihan kebidanan yang dirancang untuk membantu tenaga medis dan mahasiswa menguasai pemeriksaan prenatal secara ketat dan terstandar, dibuat sesuai ukuran tubuh ibu hamil standar serta menggunakan bahan plastik elastomer termoplastik impor dengan tampilan dan sentuhan menyerupai tubuh manusia untuk menghadirkan simulasi klinis yang realistis. Manekin ini ideal digunakan di fakultas kedokteran, sekolah kesehatan/keperawatan, rumah sakit, dan pusat pelatihan, dengan fungsi utama untuk latihan dan panduan palpasi empat segmen (manuver Leopold), auskultasi bunyi jantung janin, pengukuran panggul eksternal, serta pelatihan perawatan payudara, sehingga peserta mampu meningkatkan keterampilan praktik dan kepercayaan diri sebelum menangani pasien sebenarnya.",
-    "specs": {
-      "Brand": "China Corporation",
-      "Country of Origin": "China",
-      "Product Type": "Prenatal examination training manikin",
-      "Model / Series": "—",
-      "Key Specifications": "Material: Imported thermoplastic elastomer (TPE) | Design Basis: Standard pregnant body size | Training Functions: Four-segment palpation training & guidance; fetal heart sound auscultation; external pelvic measurement; breast care practice | Application: OBGYN clinical practice training (medical schools, nursing schools, hospitals, etc.) | Unit: Unit",
-      "Power": "—",
-      "Power Supply": "—",
-      "Dimensions": "P 75 cm x L 45 cm x T 35 cm",
-      "Weight": "4 kg",
-      "Materials": "—",
-      "Included Accessories": "—",
-      "Warranty": "12 Months",
-      "Certifications / Standards": "—"
-    },
-    "brand": "China Corporation",
-    "origin": "China",
-    "categories": [
-      "MEDICAL TRAINING",
-      "OBGYN",
-      "PRENATAL"
-    ],
-    "topics": [
-      "Medical & Clinic Diagnostics"
-    ],
-    "topic": "Medical & Clinic Diagnostics"
-  },
-  {
-    "id": "prostate-glands-examine-model",
-    "badge": "Import",
-    "title": "China Prostate Glands Examine Model",
-    "meta": "Prostate examination training model | China Corporation",
-    "img": "../assets/img/katalog/prostate-glands-examine-model.png",
-    "tags": [
-      "MEDICAL TRAINING",
-      "UROLOGY",
-      "PROSTATE"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/prostate-glands-examine-model",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "Model Prostate Cancer Examination dirancang sebagai alat bantu pelatihan klinis dengan empat prostat yang dapat dipertukarkan untuk mensimulasikan derajat karsinoma prostat secara progresif: stadium pertama menampilkan kelenjar prostat jinak yang sedikit membesar namun masih menyerupai kondisi normal; stadium kedua memperlihatkan dua nodul keras terpisah pada lobus kiri dan kanan sebagai gambaran stadium awal; stadium ketiga menghadirkan massa besar yang mudah teraba sebagai stadium menengah, di mana nodul kecil membesar menjadi massa keras di permukaan kelenjar; dan stadium keempat mensimulasikan kanker invasif ganas stadium terminal, saat kelenjar sepenuhnya tergantikan karsinoma sehingga seluruh permukaan terasa sangat keras, tidak teratur, dan abnormal.",
-    "specs": {
-      "Brand": "China",
-      "Country of Origin": "China",
-      "Product Type": "Prostate examination training model",
-      "Model / Series": "—",
-      "Key Specifications": "Interchangeable Prostates: 4 stages | Stage 1: Benign prostate gland, slightly enlarged, still feels normal (benign-like) | Stage 2: Two separated hard nodules (left lobe and right lobe), early-stage simulation | Stage 3: Large palpable mass, intermediate-stage simulation; small nodules enlarged into an external hard surface mass | Stage 4: Malignant invasive cancer, terminal-stage simulation; gland fully replaced by carcinoma; hard and irregular texture | Unit: Unit",
-      "Power": "—",
-      "Power Supply": "—",
-      "Dimensions": "P 75 cm x L 35 cm x T 45 cm",
-      "Weight": "3 kg",
-      "Materials": "—",
-      "Included Accessories": "—",
-      "Warranty": "12 Months",
-      "Certifications / Standards": "—"
-    },
-    "brand": "China Corporation",
-    "origin": "China",
-    "categories": [
-      "MEDICAL TRAINING",
-      "UROLOGY",
-      "PROSTATE"
-    ],
-    "topics": [
-      "Medical & Clinic Diagnostics"
-    ],
-    "topic": "Medical & Clinic Diagnostics"
-  },
-  {
     "id": "300-kn-capacity-flexural-test-machine-touch-screen-hira-hr-c5010-ts",
     "badge": "Import",
     "title": "HIRA HR-C5010/TS Flexural Test Machine 300 kN",
@@ -2290,94 +2049,6 @@
       "Civil Engineering & Construction Materials Testing"
     ],
     "topic": "Civil Engineering & Construction Materials Testing"
-  },
-  {
-    "id": "ductility-testing-machine-hira",
-    "badge": "Import",
-    "title": "HIRA Ductility Testing Machine – 1500 mm Stroke",
-    "meta": "Ductility Testing Machine – | HIRA Turkey",
-    "img": "../assets/img/katalog/hira-ductility-testing-machine-1.png",
-    "imgs": [
-      "../assets/img/katalog/hira-ductility-testing-machine-1.png",
-      "../assets/img/katalog/hira-ductility-testing-machine-2.png"
-    ],
-    "tags": [
-      "ASPHALT TESTING",
-      "BITUMEN",
-      "DUCTILITY TEST"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/ductility-testing-machine-hira",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "Percepat pekerjaan operasional laboratorium dengan HIRA Ductility Testing Machine – 1500 mm Stroke yang menawarkan pengoperasian praktis dan kinerja yang dapat diandalkan. Spesifikasi kunci mencakup Test Type: Bitumen ductility test (ductilometer), Samples Capacity: 3 samples simultaneously, serta Speed: 50 mm/min (single-speed, automatic). Cocok untuk laboratorium pengujian material konstruksi dan quality assurance yang membutuhkan operasional laboratorium secara efisien.",
-    "specs": {
-      "Brand": "HIRA",
-      "Country of Origin": "Turkey",
-      "Product Type": "Ductility Testing Machine – 1500 mm Stroke",
-      "Model / Series": "—",
-      "Key Specifications": "Test Type: Bitumen ductility test (ductilometer) | Samples Capacity: 3 samples simultaneously | Speed: 50 mm/min (single-speed, automatic) | Stroke: 1500 mm | Water Bath Temperature: 25°C ± 0.5°C (digital thermoregulator) | Drive System: Electrical motor-driven carriage on guide ways | Tank System: Large tank with digital thermostat, immersion electric heater, and pump unit | Construction: Stainless steel tank with fiberglass insulation; external frame electrostatic painted | Optional Variants (as described): Cooling system (+5°C to +25°C); Force ductility version with 3 loadcells and servo speed control 1–100 mm/min; Force ductility with cooling system | Unit: Unit",
-      "Power": "—",
-      "Power Supply": "220 V, 50 Hz, 1 phase",
-      "Dimensions": "P 50 cm x L 230 cm x T 60 cm",
-      "Weight": "85 kg",
-      "Materials": "—",
-      "Included Accessories": "3 moulds and base plates",
-      "Warranty": "12 Months",
-      "Certifications / Standards": "—"
-    },
-    "brand": "HIRA Turkey",
-    "origin": "Turkey",
-    "categories": [
-      "ASPHALT TESTING",
-      "BITUMEN",
-      "DUCTILITY TEST"
-    ],
-    "topics": [
-      "Civil Engineering & Construction Materials Testing"
-    ],
-    "topic": "Civil Engineering & Construction Materials Testing"
-  },
-  {
-    "id": "hira-bitumen-penetrometer-hr-as1925",
-    "badge": "Import",
-    "title": "HIRA HR-AS1925 Semi Automatic Digital Bitumen Penetrometer",
-    "meta": "HR-AS1925 | HIRA Turkey",
-    "img": "../assets/img/katalog/hira-hr-as1925-bitumen-penetrometer.png",
-    "tags": [
-      "ASPHALT TESTING",
-      "PENETRATION TEST",
-      "DIGITAL GAUGE"
-    ],
-    "inaproc": "https://katalog.inaproc.id/pt-swarna-sinergitama/hira-bitumen-penetrometer-hr-as1925",
-    "kbki": "3824007999",
-    "warranty": "12 Months",
-    "desc": "Solusi andal untuk operasional laboratorium, HIRA HR-AS1925 Semi Automatic Digital Bitumen Penetrometer menggabungkan performa stabil dan kemudahan operasi untuk rutinitas harian. Spesifikasi kunci mencakup Instrument Type: Semi automatic digital bitumen penetrometer, Application: Determine bituminous sample consistency under fixed load, time,…, serta Measurement: Penetration distance in tenths of millimeters (standard needle). Cocok untuk laboratorium geoteknik, geologi, dan pengujian material tanah/batuan yang membutuhkan operasional laboratorium secara efisien.",
-    "specs": {
-      "Brand": "HIRA",
-      "Country of Origin": "Turkey",
-      "Product Type": "Semi Automatic Digital Bitumen Penetrometer",
-      "Model / Series": "HR-AS1925",
-      "Key Specifications": "Instrument Type: Semi automatic digital bitumen penetrometer | Application: Determine bituminous sample consistency under fixed load, time, and temperature | Measurement: Penetration distance in tenths of millimeters (standard needle) | Digital Gauge Resolution: 0.01 mm | Controls: Stop and release push button; automatic zero timer set | Included (Bitumen Penetration): Penetration needle; transfer dish; 6 penetration tins (55x35 mm dia.) | Additional Accessories (as listed): Moisture content tins (Ø0.55x3.5 and Ø0.75x4.5); mirror with adjustable holder; one-quarter scale cone & shaft for lubricant grease; one-half scale cone & shaft for lubricant grease; brass penetrometer cone for lubricant grease & petrolatum; resilience ball penetration tools | Unit: Unit",
-      "Power": "—",
-      "Power Supply": "220 V, 50–60 Hz, 1 phase",
-      "Dimensions": "P 20 cm x L 30 cm x T 50 cm",
-      "Weight": "10 kg",
-      "Materials": "—",
-      "Included Accessories": "—",
-      "Warranty": "12 Months",
-      "Certifications / Standards": "—"
-    },
-    "brand": "HIRA Turkey",
-    "origin": "Turkey",
-    "categories": [
-      "ASPHALT TESTING",
-      "PENETRATION TEST",
-      "DIGITAL GAUGE"
-    ],
-    "topics": [
-      "Geoscience & Geotechnical Testing"
-    ],
-    "topic": "Geoscience & Geotechnical Testing"
   },
   {
     "id": "marshall-universal-extruder-hira",
