@@ -72,7 +72,7 @@
   {
     "id": "mini-centrifuge-yb-mc7000",
     "badge": "Import",
-    "title": "Mini Centrifuge (YB-MC7000",
+    "title": "Mini Centrifuge (YB-MC7000)",
     "meta": "YB-MC7000 | YanBioTech",
     "img": "../assets/img/katalog/mini-centrifuge-yb-mc7000.png",
     "tags": [
@@ -4117,9 +4117,9 @@
   {
     "id": "single-channel-pipette-yb-p2-5",
     "badge": "Import",
-    "title": "YanBioTech Single Channel Pipette YB-P2.5",
+    "title": "Single Channel Pipette (YB-P2.5)",
     "meta": "YB-P2.5 | YanBioTech",
-    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.jpg",
+    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4151,9 +4151,9 @@
   {
     "id": "single-channel-pipette-yb-p10",
     "badge": "Import",
-    "title": "YanBioTech Single Channel Pipette YB-P10",
+    "title": "Single Channel Pipette (YB-P10)",
     "meta": "YB-P10 | YanBioTech",
-    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.jpg",
+    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4185,9 +4185,9 @@
   {
     "id": "single-channel-pipette-yb-p20",
     "badge": "Import",
-    "title": "YanBioTech Single Channel Pipette YB-P20",
+    "title": "Single Channel Pipette (YB-P20)",
     "meta": "YB-P20 | YanBioTech",
-    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.jpg",
+    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4219,9 +4219,9 @@
   {
     "id": "single-channel-pipette-yb-p100",
     "badge": "Import",
-    "title": "YanBioTech Single Channel Pipette YB-P100",
+    "title": "Single Channel Pipette (YB-P100)",
     "meta": "YB-P100 | YanBioTech",
-    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.jpg",
+    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4253,9 +4253,9 @@
   {
     "id": "single-channel-pipette-yb-p200",
     "badge": "Import",
-    "title": "YanBioTech Single Channel Pipette YB-P200",
+    "title": "Single Channel Pipette (YB-P200)",
     "meta": "YB-P200 | YanBioTech",
-    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.jpg",
+    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4287,9 +4287,9 @@
   {
     "id": "single-channel-pipette-yb-p1000",
     "badge": "Import",
-    "title": "YanBioTech Single Channel Pipette YB-P1000",
+    "title": "Single Channel Pipette (YB-P1000)",
     "meta": "YB-P1000 | YanBioTech",
-    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.jpg",
+    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4321,9 +4321,9 @@
   {
     "id": "single-channel-pipette-yb-p5000",
     "badge": "Import",
-    "title": "YanBioTech Single Channel Pipette YB-P5000",
+    "title": "Single Channel Pipette (YB-P5000)",
     "meta": "YB-P5000 | YanBioTech",
-    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.jpg",
+    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4355,9 +4355,9 @@
   {
     "id": "single-channel-pipette-yb-p10000",
     "badge": "Import",
-    "title": "YanBioTech Single Channel Pipette YB-P10000",
+    "title": "Single Channel Pipette (YB-P10000)",
     "meta": "YB-P10000 | YanBioTech",
-    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.jpg",
+    "img": "../assets/img/katalog/singlechannel-pipette-yb-p200.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4389,9 +4389,9 @@
   {
     "id": "8-channel-pipette-yb-pm10",
     "badge": "Import",
-    "title": "YanBioTech 8-Channel Pipette YB-PM10",
+    "title": "8-Channel Pipette (YB-PM10)",
     "meta": "YB-PM10 | YanBioTech",
-    "img": "../assets/img/katalog/multichannel-pipette-yb-pm300.jpg",
+    "img": "../assets/img/katalog/multichannel-pipette-yb-pm300.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4423,9 +4423,9 @@
   {
     "id": "8-channel-pipette-yb-pm100",
     "badge": "Import",
-    "title": "YanBioTech 8-Channel Pipette YB-PM100",
+    "title": "8-Channel Pipette (YB-PM100)",
     "meta": "YB-PM100 | YanBioTech",
-    "img": "../assets/img/katalog/multichannel-pipette-yb-pm300.jpg",
+    "img": "../assets/img/katalog/multichannel-pipette-yb-pm300.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4457,9 +4457,9 @@
   {
     "id": "8-channel-pipette-yb-pm300",
     "badge": "Import",
-    "title": "YanBioTech 8-Channel Pipette YB-PM300",
+    "title": "8-Channel Pipette (YB-PM300)",
     "meta": "YB-PM300 | YanBioTech",
-    "img": "../assets/img/katalog/multichannel-pipette-yb-pm300.jpg",
+    "img": "../assets/img/katalog/multichannel-pipette-yb-pm300.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4491,9 +4491,9 @@
   {
     "id": "8-channel-pipette-yb-pm1000",
     "badge": "Import",
-    "title": "YanBioTech 8-Channel Pipette YB-PM1000",
+    "title": "8-Channel Pipette (YB-PM1000)",
     "meta": "YB-PM1000 | YanBioTech",
-    "img": "../assets/img/katalog/multichannel-pipette-yb-pm300.jpg",
+    "img": "../assets/img/katalog/multichannel-pipette-yb-pm300.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4525,9 +4525,9 @@
   {
     "id": "high-speed-centrifuge-yb-mc15000",
     "badge": "Import",
-    "title": "YanBioTech High-Speed Centrifuge YB-MC15000",
+    "title": "High-Speed Centrifuge (YB-MC15000)",
     "meta": "YB-MC15000 | YanBioTech",
-    "img": "../assets/img/katalog/high-speed-15000-rpm-centrifuge-yb-mc15000.jpg",
+    "img": "../assets/img/katalog/high-speed-15000-rpm-centrifuge-yb-mc15000.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4563,9 +4563,9 @@
   {
     "id": "gradient-thermal-cycler-yb-pcr-1",
     "badge": "Import",
-    "title": "YanBioTech Two Generation Gradient Thermal Cycler",
+    "title": "Gradient Thermal Cycler (YB-PCR-1)",
     "meta": "YB-PCR-1 | YanBioTech",
-    "img": "../assets/img/katalog/thermal-cycler-yb-pcr-1.jpg",
+    "img": "../assets/img/katalog/thermal-cycler-yb-pcr-1.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4609,9 +4609,9 @@
   {
     "id": "microvolume-spectrophotometer-yb-nano-1",
     "badge": "Import",
-    "title": "YanBioTech Microvolume Spectrophotometer YB-Nano-1",
+    "title": "Microvolume Spectrophotometer (YB-Nano-1)",
     "meta": "YB-Nano-1 | YanBioTech",
-    "img": "../assets/img/katalog/micro-volume-spectro-yb-nano-1.jpg",
+    "img": "../assets/img/katalog/micro-volume-spectro-yb-nano-1.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4653,9 +4653,9 @@
   {
     "id": "microvolume-spectrophotometer-yb-nano-2",
     "badge": "Import",
-    "title": "YanBioTech Microvolume Spectrophotometer YB-Nano-2",
+    "title": "Microvolume Spectrophotometer (YB-Nano-2)",
     "meta": "YB-Nano-2 | YanBioTech",
-    "img": "../assets/img/katalog/micro-volume-spectro-yb-nano-2.jpg",
+    "img": "../assets/img/katalog/micro-volume-spectro-yb-nano-2.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4699,9 +4699,9 @@
   {
     "id": "mini-centrifuge-desktop-yb-mc7000",
     "badge": "Import",
-    "title": "YanBioTech Mini Centrifuge YB-MC7000",
+    "title": "Mini Centrifuge (YB-MC7000)",
     "meta": "YB-MC7000 | YanBioTech",
-    "img": "../assets/img/katalog/mini-centrifuge-desktop-instrument-yb-mc700.jpg",
+    "img": "../assets/img/katalog/mini-centrifuge-desktop-instrument-yb-mc700.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4736,9 +4736,9 @@
   {
     "id": "electronic-pipette-controller-yb-pe",
     "badge": "Import",
-    "title": "YanBioTech Electronic Pipette Controller",
+    "title": "Electronic Pipette Controller (YB-PE)",
     "meta": "YB-PE | YanBioTech",
-    "img": "../assets/img/katalog/electronic-pipette-controller-yb-pe.jpg",
+    "img": "../assets/img/katalog/electronic-pipette-controller-yb-pe.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4780,7 +4780,7 @@
     "badge": "Import",
     "title": "YanBioTech Programmable Electrophoresis Power Supply",
     "meta": "YB-PS | YanBioTech",
-    "img": "../assets/img/katalog/electrophoresis-power-supply-yb-ps.jpg",
+    "img": "../assets/img/katalog/electrophoresis-power-supply-yb-ps.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4822,9 +4822,9 @@
   {
     "id": "dual-mode-electrophoresis-power-supply-yb-dm2",
     "badge": "Import",
-    "title": "YanBioTech Dual Module Electrophoresis Power Supply",
+    "title": "Dual Module Electrophoresis Power Supply (YB-DM2)",
     "meta": "YB-DM2 | YanBioTech",
-    "img": "../assets/img/katalog/dual-mode-electrophoresis-power-supply-yb-dm2.jpg",
+    "img": "../assets/img/katalog/dual-mode-electrophoresis-power-supply-yb-dm2.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4870,9 +4870,9 @@
   {
     "id": "horizontal-electrophoresis-tank-yb-het",
     "badge": "Import",
-    "title": "YanBioTech Horizontal Electrophoresis Tank",
+    "title": "Horizontal Electrophoresis Tank (YB-HET)",
     "meta": "YB-HET | YanBioTech",
-    "img": "../assets/img/katalog/horizontal-electrophoresis-tank-yb-het.jpg",
+    "img": "../assets/img/katalog/horizontal-electrophoresis-tank-yb-het.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4905,9 +4905,9 @@
   {
     "id": "vertical-electrophoresis-tank-yb-bv4",
     "badge": "Import",
-    "title": "YanBioTech Vertical Electrophoresis Tank",
+    "title": "Vertical Electrophoresis Tank (YB-BV4)",
     "meta": "YB-BV4 | YanBioTech",
-    "img": "../assets/img/katalog/vertical-electrophoresis-tank-yb-bv4.jpg",
+    "img": "../assets/img/katalog/vertical-electrophoresis-tank-yb-bv4.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4941,9 +4941,9 @@
   {
     "id": "transfer-electrophoresis-tank-yb-bt4",
     "badge": "Import",
-    "title": "YanBioTech Transfer Electrophoresis Tank",
+    "title": "Transfer Electrophoresis Tank (YB-BT4)",
     "meta": "YB-BT4 | YanBioTech",
-    "img": "../assets/img/katalog/transfer-electrophoresis-tank-yb-bt4.jpg",
+    "img": "../assets/img/katalog/transfer-electrophoresis-tank-yb-bt4.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -4976,9 +4976,9 @@
   {
     "id": "digital-vortex-mixer-yb-vmd",
     "badge": "Import",
-    "title": "YanBioTech Digital Vortex Mixer YB-VMD",
+    "title": "Digital Vortex Mixer (YB-VMD)",
     "meta": "YB-VMD | YanBioTech",
-    "img": "../assets/img/katalog/vortex-mixer-yb-vmd.jpg",
+    "img": "../assets/img/katalog/vortex-mixer-yb-vmd.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5017,9 +5017,9 @@
   {
     "id": "digital-vortex-mixer-yb-vm",
     "badge": "Import",
-    "title": "YanBioTech Digital Vortex Mixer YB-VM",
+    "title": "Digital Vortex Mixer (YB-VM)",
     "meta": "YB-VM | YanBioTech",
-    "img": "../assets/img/katalog/vortex-mixer-yb-vm.jpg",
+    "img": "../assets/img/katalog/vortex-mixer-yb-vm.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5058,9 +5058,9 @@
   {
     "id": "low-temperature-tissue-homogenizer-yb-hl",
     "badge": "Import",
-    "title": "YanBioTech -50℃ Low Temperature Tissue Homogenizer",
+    "title": "-50℃ Low Temperature Tissue Homogenizer (YB-HL)",
     "meta": "YB-HL | YanBioTech",
-    "img": "../assets/img/katalog/-50c-low-temperature-homogenizer-yb-hl.jpg",
+    "img": "../assets/img/katalog/-50c-low-temperature-homogenizer-yb-hl.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5104,9 +5104,9 @@
   {
     "id": "3d-low-temperature-tissue-homogenizer-yb-hl3d",
     "badge": "Import",
-    "title": "YanBioTech 3D Low Temperature Tissue Homogenizer",
+    "title": "3D Low Temperature Tissue Homogenizer (YB-HL3D)",
     "meta": "YB-HL3D | YanBioTech",
-    "img": "../assets/img/katalog/3d-low-temperature-homogenizer-yb-hl3d.jpg",
+    "img": "../assets/img/katalog/3d-low-temperature-homogenizer-yb-hl3d.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5152,9 +5152,9 @@
   {
     "id": "tissue-homogenizer-yb-hv",
     "badge": "Import",
-    "title": "YanBioTech Tissue Homogenizer",
+    "title": "Tissue Homogenizer (YB-HV)",
     "meta": "YB-HV | YanBioTech",
-    "img": "../assets/img/katalog/tissue-homogenizer-yb-hv.jpg",
+    "img": "../assets/img/katalog/tissue-homogenizer-yb-hv.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5188,9 +5188,9 @@
   {
     "id": "3d-tissue-homogenizer-yb-h3d",
     "badge": "Import",
-    "title": "YanBioTech 3D Tissue Homogenizer",
+    "title": "3D Tissue Homogenizer (YB-H3D)",
     "meta": "YB-H3D | YanBioTech",
-    "img": "../assets/img/katalog/3d-tissue-homogenizer-yb-h3d.jpg",
+    "img": "../assets/img/katalog/3d-tissue-homogenizer-yb-h3d.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5226,9 +5226,9 @@
   {
     "id": "chemi-doc-chemiluminescence-imaging-system-yb-cd1",
     "badge": "Import",
-    "title": "YanBioTech Chemi Doc Chemiluminescence Imaging System",
+    "title": "Chemi Doc Chemiluminescence Imaging System (YB-CD1)",
     "meta": "YB-CD1 | YanBioTech",
-    "img": "../assets/img/katalog/chemi-doc-yb-cd1.jpg",
+    "img": "../assets/img/katalog/chemi-doc-yb-cd1.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5284,9 +5284,9 @@
   {
     "id": "multifunction-imaging-system-yb-mf1",
     "badge": "Import",
-    "title": "YanBioTech Multifunction Imaging System",
+    "title": "Multifunction Imaging System (YB-MF1)",
     "meta": "YB-MF1 | YanBioTech",
-    "img": "../assets/img/katalog/multifunction-imaging-system-yb-mf1.jpg",
+    "img": "../assets/img/katalog/multifunction-imaging-system-yb-mf1.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5340,9 +5340,9 @@
   {
     "id": "orbital-digital-shaker-yb-so",
     "badge": "Import",
-    "title": "YanBioTech Orbital Digital Shaker",
+    "title": "Orbital Digital Shaker (YB-SO)",
     "meta": "YB-SO | YanBioTech",
-    "img": "../assets/img/katalog/orbital-digital-shaker-yb-so.jpg",
+    "img": "../assets/img/katalog/orbital-digital-shaker-yb-so.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5383,9 +5383,9 @@
   {
     "id": "dry-bath-with-heating-yb-dbh",
     "badge": "Import",
-    "title": "YanBioTech Dry Bath with Heating Function",
+    "title": "Dry Bath with Heating Function (YB-DBH)",
     "meta": "YB-DBH | YanBioTech",
-    "img": "../assets/img/katalog/dry-bath-incubator-yb-dbh.jpeg",
+    "img": "../assets/img/katalog/dry-bath-incubator-yb-dbh.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
@@ -5476,9 +5476,9 @@
   {
     "id": "portable-gel-documentation-system-yb-gd2",
     "badge": "Import",
-    "title": "YanBioTech Gel Documentation System YB-GD2",
+    "title": "Gel Documentation System (YB-GD2)",
     "meta": "YB-GD2 | YanBioTech",
-    "img": "../assets/img/katalog/portable-gel-documentation-system-yb-gd2.jpg",
+    "img": "../assets/img/katalog/portable-gel-documentation-system-yb-gd2.png",
     "tags": [
       "IMPORT",
       "CHINA ORIGIN",
